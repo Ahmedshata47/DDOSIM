@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+*.egg
+
+# Environment
+venv/
+.env
+*.conda
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Data - large datasets (keep raw zips out, keep extracted CSVs out)
+backend/data/cic_raw/
+backend/data/cic_train.csv
+backend/data/cic_test.csv
+
+# Logs
+backend/server.log
+
+# Pycache
+**/__pycache__/
